@@ -1,0 +1,107 @@
+body {
+    background-color: #171c21;
+  }
+
+.container1 {
+    margin-top: 10px;
+    padding:70px
+}
+
+h1 {
+    text-align: center;
+    color: burlywood;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: burlywood;
+    font-size: 40px;
+}
+
+label{
+    font-size: x-large;
+    color: white;
+}
+.btn{
+    position: absolute;
+    left: 46%;
+    padding: 5px 20px;
+    font-size: xx-large;
+}
+
+a{
+    font-size: 19px;    
+}
+.nav-item{
+    padding: 5px 30px;
+}
+.navbar-brand{
+    font-size: xx-large;
+    padding: 5px 30px;
+}
+
+button{
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.parent{
+  margin: 40px;
+}
+
+.container {
+  float: left;
+  position: relative;
+    width: 450px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:10px;
+    margin-right:10px;
+  }
+  
+  .image {
+    border-radius: 20px;
+    width: 435px;
+    height: 300px;
+  }
+  
+  .overlay {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:transparent;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    background-color: #171c21;
+    opacity: 0.7;
+
+  }
+  
+  .container:hover .overlay {
+    width: 100%;
+    
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }

@@ -1,0 +1,62 @@
+
+.form{
+ padding-left: 100px;
+ padding-right: 100px;
+
+}
+
+label{
+    color: burlywood;
+}
+.jumbotron{
+    background: url('https://images.unsplash.com/photo-1556711905-b3f402e1ff80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80') no-repeat;
+    background-size: cover;
+    height: 900px;
+    color: burlywood;
+    font-size: larger;
+    
+}
+
+button{
+    width: 800px;
+}
+
+.but{
+    margin-left: 200px;
+    margin-bottom: 300px;
+    margin-top: 50px;
+}
+
+.bttn{
+    width:100px;
+}
+
+.back {
+    background-color: #171c21;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.acc{
+    font-family: 'Playfair Display', serif;
+    
+    font-size: 30px;
+}
+
+a{
+    font-size: 19px;    
+}
+.nav-item{
+    padding: 5px 30px;
+}
+.navbar-brand{
+    font-size: xx-large;
+    padding: 5px 30px;
+}
